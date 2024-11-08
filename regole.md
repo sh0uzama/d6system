@@ -69,19 +69,33 @@ Quando un personaggio resiste ad una conseguenza, ci riesce sempre. La conseguen
 
 Il **tiro resistenza** ci dice quanto **stress** accumula il PG, tirando sulla **Caratteristica** o **Competenza** relativa (tipicamente **Robustezza** o **Volontà**).
 
-- successo (anche strepitoso): 1 **stress**
-- successo parziale: 2 **stress**
-- fallimento: 3 **stress**
+- successo (anche strepitoso): 1 **stress**, e la conseguenza viene evitata. Eventuali ferite vengono ridotte di 2 livelli.
+- successo parziale: 2 **stress**, e la conseguenza viene grandemente ridotta. Eventuali ferite vengono ridotte di 1 livello.
+- fallimento: 3 **stress**, e la conseguenza viene ridotta. Eventuali ferite vengono ridotte di 1 livello, ma con un minimo di 1 (non puoi annullare una ferita).
+
+Se una ferita viene ridotta sotto il livello 1, viene annullata. In caso di fallimento sul tiro resistenza, non sara' possibile ridurla sotto il livello 1.
+
+### Armatura
+Indossare un'armatura è decisamente efficace quando si tratta di evitare di subire danni.  
+Ogni armatura indossata garantisce un certo numero di "punti armatura". Quando subisci una ferita, puoi decidere di togliere punti armatura per ridurre il livello della ferita, con uno scambio 1-ad-1. Ridurre a livello 0 una ferita significa averla negata completamente - la tua armatura ha assorbito completamente il danno.
+
+Questa riduzione si può applicare SOLO per le ferite/danni in cui l'armatura può essere utile. Difficilmente una corazza di piastre ti proteggerà dalle fiamme o da una scossa elettrica! 
+
+Quando un'armatura arriva a 0 punti diventa un semplice ingombro inutile, un orpello estetico.
 
 ## Ferite
-### Ferita Leggera (L1)
+
+### Ferita Leggera (livello 1)
 Piccoli danni che causano fastidio, ma non compromettono in modo significativo il personaggio.
-### Ferita Grave (L2)
+
+### Ferita Grave (livello 2)
 Lesioni che limitano il movimento o la capacità di combattimento, richiedendo cure per evitare complicazioni.
-### Ferita Critica (L3)
+
+### Ferita Critica (livello 3)
 Danni estremi, come emorragie o fratture importanti, che mettono a serio rischio la vita del personaggio e richiedono cure immediate.
+
 ## Ingombro e Carico
-Ogni cosa utile che il tuo personaggio si porta in giro ha un “costo”, sia in **monete** che in **ingombro** (🔸).
+Ogni cosa utile che il tuo personaggio si porta in giro ha un “costo”, sia in **monete** (🟡) che in **ingombro** (🔸).
 L’ingombro è un valore numerico astratto che ci aiuta a capire quanto è grande o pesante un determinato oggetto.
 Il carico del tuo personaggio dipende da quanti punti di ingombro sta trasportando.
 
@@ -91,10 +105,10 @@ Sei agile e passi inosservato, hai facilità nel muoverti e sei in grado di attr
 Da 5🔸 a 8🔸: **Carico Medio**
 Non passi inosservato, il tuo equipaggiamento si nota e pesa. Riesci ancora a muoverti in maniera abbastanza disinvolta, ma non sei sicuro di voler sapere quanto sia profondo quel corso d’acqua.
 
-Da 8🔸 a 12🔸: **Carico Pesante**
+Da 9🔸 a 12🔸: **Carico Pesante**
 Sei carico come un mulo, lento e decisamente goffo nei movimenti. Se fossi su una nave potrebbero usarti come ancora.
 
-Da 13🔸 in su: **Quasi Immobile**
+Da 13🔸 in su: **Carico Soverchiante**
 Sei talmente carico che ti muovi a fatica. Ancora un paio di oggetti e probabilmente crolli sotto il peso che trasporti.
 
 ## Equipaggiamento
@@ -124,17 +138,17 @@ Un’arma da tiro in grado di colpire bersagli di cui riesci a vedere il bianco 
 [🔸🔸] **Arco Lungo**  
 Un’arma da tiro in grado di colpire bersagli a portata di grido.
 
-[🔸🔸] **Balestra** (3 monete)  
+[🔸🔸] **Balestra** (🟡🟡🟡)  
 Un’arma devastante, con una lunga gittata, ma una volta usata richiede tempo per essere ricaricata.
 
 ### Armature
 [🔸🔸] **Armatura leggera**  
 Una corazza di cuoio o una cotta di maglia leggera.  
-_Quando effettui un tiro resistenza per cui la tua armatura potrebbe aiutare, hai **+1d**._
+_Un'armatura leggera ti fornisce 2 punti di **armatura**._
 
-[🔸🔸🔸🔸🔸] **Armatura pesante** (4 monete)  
+[🔸🔸🔸🔸🔸] **Armatura pesante** (🟡🟡🟡🟡)  
 Un’armatura completa, con piastre di metallo, cinghie e lacci, pesante e ingombrante ma molto efficace a proteggere i tuoi punti vitali.  
-_Quando effettui un tiro resistenza per cui la tua armatura potrebbe aiutare, hai **+2d**._
+_Un'armatura pesante ti fornisce 5 punti di **armatura**._
 
 [🔸] **Scudo**  
 Un sano asse di legno e metallo molto comodo per tenere lontane le cose che potrebbero farti male.  
@@ -150,11 +164,11 @@ Quando rovisti tra l’equipaggiamento per qualche oggetto utile, trovi quello c
 Ti servono una manciata di minuti per bendare le ferite di qualcun altro, fermare emorragie o altri usi simili.  
 _Probabilmente farai un’azione di **Sopravvivenza**._
 
-[🔸] **Erbe ed Unguenti** (3 usi, 2 monete)  
+[🔸] **Erbe ed Unguenti** (3 usi, 🟡🟡)  
 Puoi prendere un po’ di tempo e cercare di pulire e curare accuratamente le ferite di qualcuno usando erbe ed unguenti. Decisamente più efficace delle bende, ma richiede più tempo e conoscenza.  
 _Probabilmente farai un’azione di **Alchimia**._
 
-[🔸] **Arnesi da scasso** (2 monete)  
+[🔸] **Arnesi da scasso** (🟡🟡)  
 Un grimaldello, un piccolo palanchino, un piccola fiala d'olio per silenziare ingranaggi rumorosi. Indispesabili per chi dovesse accidentalmente chiudersi fuori casa...
 
 [🔸] **Razioni Giornaliere** (3 usi)  
@@ -164,7 +178,7 @@ Piuttosto che niente, meglio piuttosto.
 Una rudimentale bussola, più una serie di carteggi e papiri che potrebbero tornarti utili nel caso in cui ti perdessi o volesssi trovare un posto specifico.  
 _Ogni volta che vuoi puoi consumare 1 uso per ottenere **+1d** in qualunque situazione una mappa, cartina o bussola possano essere d'aiuto._
 
-[🔸] **Arnesi da Occultista** (3 usi, 2 monete)  
+[🔸] **Arnesi da Occultista** (3 usi, 🟡🟡)  
 Una manciata di argento vivo, fiale di sali oscuri, candele con simboli arcani, ed altri strumenti utili per interagire con il mondo Occulto.
 
 [🔸] **Lanterna ad Olio** (3 usi)  

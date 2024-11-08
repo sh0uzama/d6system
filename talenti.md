@@ -54,6 +54,10 @@ Quando imbracci uno scudo, tutti attorno a te si sentono più al sicuro.
 Non tutte le armi sono uguali. Alcune sono meglio di altre. La tua, per esempio.
 > Scegli un tipo di arma (spada a 1 mano, martello, ascia bipenne, ecc.) - **+1d** in tutti i **tiri azione** relativi a quell’arma, incluso ovviamente quando la usi per combattere.
 
+## Mulo da Soma
+I carichi pesanti ti impacciano molto meno, e riesci a trasportare con facilità più oggetti di una persona comune.
+> I tuoi limiti di **ingombro** sono più alti: **Leggero** fino a 5🔸, Medio da 6🔸 a 9🔸, **Pesante** da 10🔸 a 13🔸, e **Soverchiante** da 14🔸 in su.
+
 ## Pugno di Ferro
 Sei in grado di colpire a mani nude con la forza di un maglio.
 > I tuoi attacchi a mani nude hanno la stessa efficacia di una mazza o un martello.
