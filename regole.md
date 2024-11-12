@@ -18,6 +18,9 @@ Il numero di dadi a sei facce da usare sarà uguale al valore della **Caratteris
 
 A seconda del rischio dell’azione, i successi parziali o i fallimenti avranno conseguenze più o meno gravi, così come a seconda della ricompensa i successi avranno effetti più o meno grandi.
 
+### Scala e Rango
+
+
 ### Zero o meno!
 
 Se ti trovi a dover tirare un numero di dadi pari a zero (o meno), allora dovrai tirare due dadi e considerare il risultato minore. Non solo, ma anche se dovessi tirare due 6, non potrai MAI ottenere un **successo strepitoso**, in quanto solo uno dei due conterebbe per il risultato. 
@@ -99,16 +102,16 @@ Ogni cosa utile che il tuo personaggio si porta in giro ha un “costo”, sia i
 L’ingombro è un valore numerico astratto che ci aiuta a capire quanto è grande o pesante un determinato oggetto.
 Il carico del tuo personaggio dipende da quanti punti di ingombro sta trasportando.
 
-Fino a 4🔸: **Carico Leggero**
+Fino a 5🔸: **Carico Leggero**
 Sei agile e passi inosservato, hai facilità nel muoverti e sei in grado di attraversare un fiume senza timore di andare a fondo.
 
-Da 5🔸 a 8🔸: **Carico Medio**
+Da 6🔸 a 10🔸: **Carico Medio**
 Non passi inosservato, il tuo equipaggiamento si nota e pesa. Riesci ancora a muoverti in maniera abbastanza disinvolta, ma non sei sicuro di voler sapere quanto sia profondo quel corso d’acqua.
 
-Da 9🔸 a 12🔸: **Carico Pesante**
+Da 10🔸 a 15🔸: **Carico Pesante**
 Sei carico come un mulo, lento e decisamente goffo nei movimenti. Se fossi su una nave potrebbero usarti come ancora.
 
-Da 13🔸 in su: **Carico Soverchiante**
+Da 16🔸 in su: **Carico Soverchiante**
 Sei talmente carico che ti muovi a fatica. Ancora un paio di oggetti e probabilmente crolli sotto il peso che trasporti.
 
 ## Equipaggiamento
@@ -118,6 +121,7 @@ Molti oggetti non hanno descrizioni in termini di meccanica di gioco - questo pe
 
 - **Monete**: il costo di un oggetto, in **monete**, è pari al suo **ingombro** - in caso differisse, viene indicato subito dopo il nome.
 - **Usi**: un oggetto con X **usi** può essere usato fino ad X volte prima di esaurirsi. Una volta esaurito non genera più alcun **ingombro**.
+- **Munizioni**: un'arma con X **munizioni** non può essere usata se finiscono le munizioni. Le munizioni possono consumarsi come conseguenza di successi parziali o fallimenti.
 
 ### Armi
 [🔸] **Arma da mischia**  
@@ -132,55 +136,57 @@ Lame leggere, piccole e ben bilanciate, efficaci a qualche metro di distanza.
 [🔸🔸] **Arma a due mani**  
 Un’arma a due mani, pesante, lenta ma terribilmente efficace, come uno spadone, un’ascia bipenne o un martello a due mani.
 
-[🔸] **Arco corto**  
-Un’arma da tiro in grado di colpire bersagli di cui riesci a vedere il bianco degli occhi.
+[🔸] **Arco corto** (5 munizioni)  
+Un’arma da tiro agile e leggera, in grado di colpire bersagli di cui riesci a vedere il bianco degli occhi.
 
-[🔸🔸] **Arco Lungo**  
-Un’arma da tiro in grado di colpire bersagli a portata di grido.
+[🔸🔸] **Arco Lungo** (5 munizioni)  
+Un’arma da tiro ingombrante e potente, in grado di colpire bersagli a portata di grido.
 
-[🔸🔸] **Balestra** (🟡🟡🟡)  
+[🔸🔸] **Balestra** (4 munizioni, 🟡🟡🟡)  
 Un’arma devastante, con una lunga gittata, ma una volta usata richiede tempo per essere ricaricata.
 
 ### Armature
 [🔸🔸] **Armatura leggera**  
 Una corazza di cuoio o una cotta di maglia leggera.  
-_Un'armatura leggera ti fornisce 2 punti di **armatura**._
+_Quando la indossi, ottieni 2 punti di **armatura**._
 
 [🔸🔸🔸🔸🔸] **Armatura pesante** (🟡🟡🟡🟡)  
 Un’armatura completa, con piastre di metallo, cinghie e lacci, pesante e ingombrante ma molto efficace a proteggere i tuoi punti vitali.  
-_Un'armatura pesante ti fornisce 5 punti di **armatura**._
+_Quando la indossi, ottieni 3 punti di **armatura**._
 
 [🔸] **Scudo**  
 Un sano asse di legno e metallo molto comodo per tenere lontane le cose che potrebbero farti male.  
-_Quando effettui un tiro resistenza per cui il tuo scudo potrebbe aiutare, hai **+1d**._
+_Quando lo imbracci, ottieni 1 punto di **armatura**._
 
 ### Altri Oggetti
 
 [🔸] **Equipaggiamento da Avventuriero** (5 usi)  
 Una raccolta di oggetti pratici ed utili, come acciarino, gessi, chiodi, bastone di legno, specchio, eccetera.  
-Quando rovisti tra l’equipaggiamento per qualche oggetto utile, trovi quello che cerchi e consumi 1 uso.
+_Quando rovisti tra l’equipaggiamento per qualche oggetto utile, trovi quello che cerchi e consumi 1 uso._
 
-[🔸] **Bende** (3 usi)  
-Ti servono una manciata di minuti per bendare le ferite di qualcun altro, fermare emorragie o altri usi simili.  
-_Probabilmente farai un’azione di **Sopravvivenza**._
+[🔸] **Bende, Erbe ed Unguenti** (5 usi, 🟡🟡)  
+Puoi prendere un po’ di tempo e cercare di pulire e curare accuratamente le ferite di qualcuno usando bende, erbe ed unguenti.
+_Quando li usi, prendi **+1d**._  
 
-[🔸] **Erbe ed Unguenti** (3 usi, 🟡🟡)  
-Puoi prendere un po’ di tempo e cercare di pulire e curare accuratamente le ferite di qualcuno usando erbe ed unguenti. Decisamente più efficace delle bende, ma richiede più tempo e conoscenza.  
-_Probabilmente farai un’azione di **Alchimia**._
+[🔸] **Arnesi da scasso** (5 usi, 🟡🟡)  
+Un grimaldello, un piccolo palanchino, un piccola fiala d'olio per silenziare ingranaggi rumorosi. Indispesabili per chi dovesse accidentalmente chiudersi fuori casa...  
+_Quando li usi, consuma 1 uso e prendi **+1d**._
 
-[🔸] **Arnesi da scasso** (🟡🟡)  
-Un grimaldello, un piccolo palanchino, un piccola fiala d'olio per silenziare ingranaggi rumorosi. Indispesabili per chi dovesse accidentalmente chiudersi fuori casa...
-
-[🔸] **Razioni Giornaliere** (3 usi)  
+[🔸] **Razioni Giornaliere** (5 usi)  
 Piuttosto che niente, meglio piuttosto.  
 
 [🔸] **Mappe e Cartine** (5 usi)  
 Una rudimentale bussola, più una serie di carteggi e papiri che potrebbero tornarti utili nel caso in cui ti perdessi o volesssi trovare un posto specifico.  
-_Ogni volta che vuoi puoi consumare 1 uso per ottenere **+1d** in qualunque situazione una mappa, cartina o bussola possano essere d'aiuto._
+_Quando li usi, consuma 1 uso prendi **+1d**._
 
-[🔸] **Arnesi da Occultista** (3 usi, 🟡🟡)  
+[🔸] **Arnesi da Occultista** (5 usi, 🟡🟡)  
 Una manciata di argento vivo, fiale di sali oscuri, candele con simboli arcani, ed altri strumenti utili per interagire con il mondo Occulto.
+_Quando li usi, consuma 1 uso e prendi **+1d**._
 
-[🔸] **Lanterna ad Olio** (3 usi)  
+[🔸] **Lanterna ad Olio** (5 usi)  
 Uno strumento indispensabile per esplorare gli anfratti bui.  
 _Ogni volta che passa un po' di tempo, il Master ti dirà di consumare 1 uso._
+
+[🔸🔸] **Cintura Alchemica** (3 usi, 🟡🟡🟡🟡)  
+Una granata esplosiva, una fiala di acido, un fumogeno, una bomba incendiaria.
+_Quando usi una fiala o granata, consuma 1 uso._
