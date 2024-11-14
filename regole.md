@@ -5,25 +5,24 @@
 Quando il tuo personaggio cerca di effettuare una qualsiasi azione dall’esito incerto, il Master può dichiarare che va effettuato un tiro azione (un tiro di dadi) relativo ad una delle caratteristiche o competenze. Quale di queste vada utilizzata può essere oggetto di discussione.
 
 Ci sono due fattori da tenere in mente quando si effettua un tiro azione. 
-Il primo è capire quale sia l’entità del **rischio** che l’azione comporta. Questo può essere **basso**, **medio**, **alto** o **critico**.
-Il secondo è capire quale sia l'**effetto** nel caso in cui l’azione abbia successo. Questo può essere **quasi nullo**, **normale**, **grande** o **eccezionale**.
+Il primo è capire quale sia la **situazione** in cui il personaggio agisce. Questa può essere **controllata**, **tesa**, **critica** o **disperata**.
+Il secondo è capire quale sia l'**efficacia** nel caso in cui l’azione abbia successo. Questo può essere **nulla**, **poca**, **normale** o **superiore**.
 
-Nella grande maggioranza dei casi, la situazione sarà a **rischio medio** ed **effetto normale**. Se uno di questi due valori fosse diverso, il Master deve comunicarlo al giocatore in modo che il giocatore possa consapevolmente accettarla oppure cambiare idea, modificando l’azione o rinunciando ad essa.
+Nella grande maggioranza dei casi, la situazione sarà **tesa** con efficacia **normale**. Se uno di questi due valori fosse diverso, il Master deve comunicarlo al giocatore in modo che il giocatore possa consapevolmente accettarla oppure cambiare idea, modificando l’azione o rinunciando ad essa.
 
 Il numero di dadi a sei facce da usare sarà uguale al valore della **Caratteristica** o **Competenza** coinvolta. Quindi, dopo aver lanciato i dadi, si legge il risultato più alto.
 
-- Se il risultato più alto e’ un 6, si tratta di un **successo** - le cose vanno bene. Se ottieni più di un 6, e’ un **successo strepitoso** - ottieni qualche beneficio addizionale.
-- Se il risultato più alto e’ un 5, si tratta un **successo parziale** - riesci a fare quello che ti eri prefissato, ma ci sono delle conseguenze (problemi, danni, effetto ridotto, ecc.).
-- Se il risultato più alto va da 1 a 4, si parla di **fallimento**. Le cose vanno male, e ci sono delle complicazioni.
+- Se il risultato più alto e’ un 6, si tratta di un **successo** - le cose vanno bene.
+- Se il risultato più alto e’ un 4 o 5, si tratta un **successo parziale** - riesci a fare quello che ti eri prefissato, ma ci sono delle conseguenze (problemi, danni, effetto ridotto, ecc.).
+- Se il risultato più alto va da 1 a 3, si parla di **fallimento**. Le cose vanno male, e ci sono delle complicazioni.
+
+Se dovessi tirare più di un 6, ottieni più di un successo. Questo vuol dire, tipicamente, un beneficio addizionale per ogni successo extra.
 
 A seconda del rischio dell’azione, i successi parziali o i fallimenti avranno conseguenze più o meno gravi, così come a seconda della ricompensa i successi avranno effetti più o meno grandi.
 
-### Scala e Rango
-
-
 ### Zero o meno!
 
-Se ti trovi a dover tirare un numero di dadi pari a zero (o meno), allora dovrai tirare due dadi e considerare il risultato minore. Non solo, ma anche se dovessi tirare due 6, non potrai MAI ottenere un **successo strepitoso**, in quanto solo uno dei due conterebbe per il risultato. 
+Se ti trovi a dover tirare un numero di dadi pari a zero (o meno), allora dovrai tirare due dadi e considerare il risultato minore. Non solo, ma anche se dovessi tirare due 6, non potrai MAI ottenere più di un **successo**, in quanto solo uno dei due conterebbe per il risultato. 
 
 Per ogni dado sotto lo zero che devi tirare, aggiungi un dado e comunque consideri il risultato minore. Se devi risolvere un tiro azione relativo ad una competenza in cui ho valore 0 ed ho 2 complicazioni (vedi sotto), tirerò -2 dadi, ossia 4 dadi tenendo il risultato più basso… Non vedo grandi chances…
 
@@ -43,12 +42,12 @@ E’ possibile ottenere **vantaggio** in qualsiasi momento, se si è disposti a 
 
 #### Superare i propri limiti
 Ogni volta che va effettuato un **tiro azione**, il personaggio può decidere di spingersi oltre i propri limiti e cerca di fare l’azione al meglio delle proprie possibilità.
-In termini di meccanica di gioco questo vuol dire che si ottiene **+1d**, al costo di 1 **stress**. 
+In termini di meccanica di gioco questo vuol dire che si ottiene **+1d**, al costo di 2 **tenacia**. 
 E’ possibile ottenere solo 1 dado (per ogni prova) con questo metodo.
 
 #### Assistere / Farsi aiutare
 Se l'azione lo consente, è possibile farsi aiutare da qualcun altro. La persona che ti aiuta deve descrivere se e come intende assisterti.
-In termini di meccanica di gioco, questo fa ottenere **+1d**, ma il personaggio che ti aiuta subisce 1 **stress**. 
+In termini di meccanica di gioco, questo fa ottenere **+1d**, ma il personaggio che ti aiuta paga 1 **tenacia**. 
 E’ possibile ottenere solo 1 dado (per ogni prova) con questo metodo - se più di una persona ti sta aiutando, probabilmente si tratta di un'**azione di gruppo** (vedi sotto).
 
 ### Azioni di gruppo
@@ -58,44 +57,61 @@ In questo caso, risolviamo facendo 3 cose:
 
 Si decide un “leader” per l’azione, che guiderà l’**azione di gruppo** (descrivendo anche come lo farà)
 Tutti coloro che partecipano all’azione (leader incluso) effettuano il **tiro azione**, ma verrà considerato solo l’esito migliore (per esempio, se quattro personaggi partecipano ed ottengono rispettivamente un fallimento, due successi ed un successo parziale, l’esito sarà un successo).
-Per ogni fallimento, il leader subisce 1 **stress**.
+Per ogni fallimento, il leader perde 1 punto **tenacia**.
 
 ## Tiro Sorte
 Un tiro sorte ci dice “quanto” qualcosa si manifesta. Non ci sono **rischi** ed **effetti**, ma solo un pool di d6 che rappresenta qualcosa.
 
-Per esempio, il Master potrebbe fare un **tiro sorte** per decidere il morale dei cattivi e stabilire se sono in condizione di affrontare una rissa. Se sono coraggiosi il Master potrebbe tirare 3d e vedere come va. Con un 6, sicuramente restano e combattono. Con un 5 forse alcuni di loro scappano. Con un 1-4 battono in ritirata.
+Per esempio, il Master potrebbe fare un **tiro sorte** per decidere il morale dei cattivi e stabilire se sono in condizione di affrontare una rissa. Se sono coraggiosi il Master potrebbe tirare 3d e vedere come va. Con un 6, sicuramente restano e combattono. Con un 4-5 forse alcuni di loro scappano. Con un 1-3 battono in ritirata.
 
 ## Tiro Resistenza
-Un personaggio può fare un **tiro resistenza** per ridurre o evitare una brutta conseguenza inflitta dal Master. Per esempio, se il Master dice “Ce la fai, ma Gorlith ti spara con la balestra non appena riesci ad arrampicarti, perforandoti l’addome e causandoti una ferita grave”, il giocatore può rispondere “No! Voglio resistere.” 
+Un personaggio può fare un **tiro resistenza** per ridurre o evitare una brutta conseguenza inflitta dal Master. Per esempio, se il Master dice “Il grido della banshee perfora la tua anima ed il tuo cervello, e non puoi far altro che fuggire in preda al terrore”, il giocatore può rispondere “No! Voglio resistere.” 
 
 Quando un personaggio resiste ad una conseguenza, ci riesce sempre. La conseguenza verrà ridotta in gravità o interamente evitata.
 
-Il **tiro resistenza** ci dice quanto **stress** accumula il PG, tirando sulla **Caratteristica** o **Competenza** relativa (tipicamente **Robustezza** o **Volontà**).
+Il personaggio, prima di effettuare il tiro, deve pagare **tenacia** pari alla conseguenza che cerca di evitare. Solitamente, dipende dalla situazione di partenza: **controllata**: 1, **tesa**: 2, **critica**: 3, **disperata**: 4. Questo valore può variare, discutetene assieme se necessario.
 
-- successo (anche strepitoso): 1 **stress**, e la conseguenza viene evitata. Eventuali ferite vengono ridotte di 2 livelli.
-- successo parziale: 2 **stress**, e la conseguenza viene grandemente ridotta. Eventuali ferite vengono ridotte di 1 livello.
-- fallimento: 3 **stress**, e la conseguenza viene ridotta. Eventuali ferite vengono ridotte di 1 livello, ma con un minimo di 1 (non puoi annullare una ferita).
+- successo: la conseguenza viene evitata.
+- successo parziale: la conseguenza viene ridotta.
+- fallimento: la conseguenza viene ridotta di poco.
 
-Se una ferita viene ridotta sotto il livello 1, viene annullata. In caso di fallimento sul tiro resistenza, non sara' possibile ridurla sotto il livello 1.
-
-### Armatura
+### Tiro Armatura
 Indossare un'armatura è decisamente efficace quando si tratta di evitare di subire danni.  
-Ogni armatura indossata garantisce un certo numero di "punti armatura". Quando subisci una ferita, puoi decidere di togliere punti armatura per ridurre il livello della ferita, con uno scambio 1-ad-1. Ridurre a livello 0 una ferita significa averla negata completamente - la tua armatura ha assorbito completamente il danno.
 
-Questa riduzione si può applicare SOLO per le ferite/danni in cui l'armatura può essere utile. Difficilmente una corazza di piastre ti proteggerà dalle fiamme o da una scossa elettrica! 
+Ogni qualvolta si subisce una ferita in cui l'armatura può essere utile, è possibile effettuare un **tiro armatura**. 
 
-Quando un'armatura arriva a 0 punti diventa un semplice ingombro inutile, un orpello estetico.
+Proprio come in un **tiro resistenza**, tira un numero di dadi pari al tuo valore di armatura. 
+
+- successo: la ferita si riduce di 1 livello, con successi extra che la riducono ulteriormente (1 successo = 1 livello).
+- successo parziale: riduci la ferita di 1 livello, ma non può scendere sotto il livello 1.
+- fallimento: l'armatura non ha alcun effetto.
+
+Se una ferita viene ridotta sotto il livello 1, viene annullata.
+
+Attenzione: questa riduzione si può applicare **SOLO** per le ferite/danni in cui l'armatura può essere utile. Difficilmente una corazza di piastre ti proteggerà dalle fiamme o da una scossa elettrica! 
 
 ## Ferite
+Ogni qualvolta subisci una ferita, le cose non si mettono bene. A seconda della gravità della **situazione** in cui ti trovi, potresti subire una ferita di varia entità.
+
+Ma non temere! Ci sono diversi modi per evitare il peggio e rimandare il trapasso!
+
+#### Fai Tiro Armatura
+Prima di tutto, se hai un'armatura, potresti provare a fare un **tiro armatura** e limitare il danno subito.  
+
+#### Usa la Tenacia
+Se questo non dovesse bastare (o se sei senza armatura), ricorda che sei non sei una persona comune, e puoi comunque usare la tua **tenacia**! Per ogni **tenacia** che spendi, ridurrai di 1 il livello della ferita. Ovviamente, se la riduci a 0, la annullerai del tutto. Spiega al GM ed agli altri come sei riuscito a ridurre o evitare il danno.
 
 ### Ferita Leggera (livello 1)
-Piccoli danni che causano fastidio, ma non compromettono in modo significativo il personaggio.
+Piccoli danni che causano fastidio, ma non ti compromettono in modo significativo.
 
 ### Ferita Grave (livello 2)
 Lesioni che limitano il movimento o la capacità di combattimento, richiedendo cure per evitare complicazioni.
 
 ### Ferita Critica (livello 3)
-Danni estremi, come emorragie o fratture importanti, che mettono a serio rischio la vita del personaggio e richiedono cure immediate.
+Danni estremi, come emorragie o fratture importanti, che mettono a serio rischio la vita e richiedono cure immediate.
+
+### Ferita Mortale (livello 4)
+Non c'è speranza, sei spacciato. Il tristo mietitore ti attende.
 
 ## Ingombro e Carico
 Ogni cosa utile che il tuo personaggio si porta in giro ha un “costo”, sia in **monete** (🟡) che in **ingombro** (🔸).
@@ -166,22 +182,22 @@ _Quando rovisti tra l’equipaggiamento per qualche oggetto utile, trovi quello 
 
 [🔸] **Bende, Erbe ed Unguenti** (5 usi, 🟡🟡)  
 Puoi prendere un po’ di tempo e cercare di pulire e curare accuratamente le ferite di qualcuno usando bende, erbe ed unguenti.
-_Quando li usi, prendi **+1d**._  
+_Quando li utilizzi, prendi **+1d**._  
 
 [🔸] **Arnesi da scasso** (5 usi, 🟡🟡)  
 Un grimaldello, un piccolo palanchino, un piccola fiala d'olio per silenziare ingranaggi rumorosi. Indispesabili per chi dovesse accidentalmente chiudersi fuori casa...  
-_Quando li usi, consuma 1 uso e prendi **+1d**._
+_Quando li utilizzi, consuma 1 uso e prendi **+1d**._
 
 [🔸] **Razioni Giornaliere** (5 usi)  
 Piuttosto che niente, meglio piuttosto.  
 
 [🔸] **Mappe e Cartine** (5 usi)  
 Una rudimentale bussola, più una serie di carteggi e papiri che potrebbero tornarti utili nel caso in cui ti perdessi o volesssi trovare un posto specifico.  
-_Quando li usi, consuma 1 uso prendi **+1d**._
+_Quando li utilizzi, consuma 1 uso prendi **+1d**._
 
 [🔸] **Arnesi da Occultista** (5 usi, 🟡🟡)  
 Una manciata di argento vivo, fiale di sali oscuri, candele con simboli arcani, ed altri strumenti utili per interagire con il mondo Occulto.
-_Quando li usi, consuma 1 uso e prendi **+1d**._
+_Quando li utilizzi, consuma 1 uso e prendi **+1d**._
 
 [🔸] **Lanterna ad Olio** (5 usi)  
 Uno strumento indispensabile per esplorare gli anfratti bui.  
@@ -189,4 +205,4 @@ _Ogni volta che passa un po' di tempo, il Master ti dirà di consumare 1 uso._
 
 [🔸🔸] **Cintura Alchemica** (3 usi, 🟡🟡🟡🟡)  
 Una granata esplosiva, una fiala di acido, un fumogeno, una bomba incendiaria.
-_Quando usi una fiala o granata, consuma 1 uso._
+_Quando utilizzi una fiala o granata, consuma 1 uso._
