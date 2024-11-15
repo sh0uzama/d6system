@@ -6,7 +6,7 @@ Quando il tuo personaggio cerca di effettuare una qualsiasi azione dall’esito 
 
 Ci sono due fattori da tenere in mente quando si effettua un tiro azione. 
 Il primo è capire quale sia la **situazione** in cui il personaggio agisce. Questa può essere **controllata**, **tesa**, **critica** o **disperata**.
-Il secondo è capire quale sia l'**efficacia** nel caso in cui l’azione abbia successo. Questo può essere **nulla**, **poca**, **normale** o **superiore**.
+Il secondo è capire quale sia l'**efficacia** nel caso in cui l’azione abbia successo. Questo può essere **nulla**, **scarsa**, **normale** o **superiore**.
 
 Nella grande maggioranza dei casi, la situazione sarà **tesa** con efficacia **normale**. Se uno di questi due valori fosse diverso, il Master deve comunicarlo al giocatore in modo che il giocatore possa consapevolmente accettarla oppure cambiare idea, modificando l’azione o rinunciando ad essa.
 
@@ -93,25 +93,29 @@ Attenzione: questa riduzione si può applicare **SOLO** per le ferite/danni in c
 ## Ferite
 Ogni qualvolta subisci una ferita, le cose non si mettono bene. A seconda della gravità della **situazione** in cui ti trovi, potresti subire una ferita di varia entità.
 
-Ma non temere! Ci sono diversi modi per evitare il peggio e rimandare il trapasso!
+### Tipologie di Ferite
+
+#### Ferita Leggera (livello 1)
+Piccoli danni che causano fastidio, ma non ti compromettono in modo significativo.
+
+#### Ferita Grave (livello 2)
+Lesioni che limitano il movimento o la capacità di combattimento, richiedendo cure per evitare complicazioni.
+
+#### Ferita Critica (livello 3)
+Danni estremi, come emorragie o fratture importanti, che mettono a serio rischio la vita e richiedono cure immediate.
+
+#### Ferita Mortale (livello 4)
+Non c'è speranza, sei spacciato. Il tristo mietitore ti attende.
+
+### Limitare i danni
+
+Non temere! Ci sono diversi modi per evitare il peggio e rimandare il trapasso!
 
 #### Fai Tiro Armatura
 Prima di tutto, se hai un'armatura, potresti provare a fare un **tiro armatura** e limitare il danno subito.  
 
 #### Usa la Tenacia
 Se questo non dovesse bastare (o se sei senza armatura), ricorda che sei non sei una persona comune, e puoi comunque usare la tua **tenacia**! Per ogni **tenacia** che spendi, ridurrai di 1 il livello della ferita. Ovviamente, se la riduci a 0, la annullerai del tutto. Spiega al GM ed agli altri come sei riuscito a ridurre o evitare il danno.
-
-### Ferita Leggera (livello 1)
-Piccoli danni che causano fastidio, ma non ti compromettono in modo significativo.
-
-### Ferita Grave (livello 2)
-Lesioni che limitano il movimento o la capacità di combattimento, richiedendo cure per evitare complicazioni.
-
-### Ferita Critica (livello 3)
-Danni estremi, come emorragie o fratture importanti, che mettono a serio rischio la vita e richiedono cure immediate.
-
-### Ferita Mortale (livello 4)
-Non c'è speranza, sei spacciato. Il tristo mietitore ti attende.
 
 ## Ingombro e Carico
 Ogni cosa utile che il tuo personaggio si porta in giro ha un “costo”, sia in **monete** (🟡) che in **ingombro** (🔸).
