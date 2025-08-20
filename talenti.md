@@ -2,21 +2,21 @@
 
 ## Caratteristiche
 
-Potenza
-Riflessi
-Carisma
+- Potenza
+- Riflessi
+- Carisma
 
 ## Specializzazioni
 
-Combattere e Lanciare
-Sparare e Tirare
-Arte Occulta
-Meccanismi e Congegni
-Furtività
-Investigare
-Sopravvivenza
-Conoscenza
-Medicina e Alchimia
+- Combattere/Lanciare
+- Sparare/Tirare
+- Arte Occulta
+- Meccanismi/Congegni
+- Furtività
+- Investigare
+- Sopravvivenza
+- Conoscenza
+- Medicina/Alchimia
 
 # Talenti ed Eroismi
 
@@ -32,8 +32,11 @@ Le armature che indossi ingombrano 1 punto in meno. Lo scudo ha ingombro 0.
 
 ## Berserker
 Quando sei in combattimento, entri in uno stato di furia. Questo stato permane fin quando perdura il combattimento, o fin quando non viene calmato.  
-Finchè sei in furia, ignori tutti gli effetti delle ferite - inclusa la morte. Gli effetti si applicheranno non appena ti placherai.
-Tuttavia, finchè sei in combattimento, non puoi effettuare nè **tiri armatura** nè **tiri resistenza**.
+
+Finchè sei in furia:
+- **+1d** a **Potenza** e **Combattere/Lanciare**
+- Ignori tutti gli effetti delle ferite - inclusa la morte. Gli effetti si applicheranno non appena ti placherai.
+- Non puoi effettuare nè **tiri armatura** nè **tiri resistenza**.
 
 ## Buona Stella
 Puoi tramutare un risultato da **fallimento** a **successo parziale**.
@@ -100,21 +103,4 @@ Ottieni **+1d** ogni volta che devi effettuare un **tiro azione** in cui la tua 
 ## Cuor di Leone
 Sei completamente immune alla paura ed al terrore.
 
-# Esempi di Invocazioni
-
-## Martirio
-Puoi invocare un potere celestiale per trasferire le ferite di altri su di te - ti è sufficiente toccare la persona.  
-La ferita così trasferita scende di 1 livello.
-
-## Deflagrazione
-In un punto a portata di lancio, invochi un'esplosione di fuoco e fiamme che coinvolgono tutto e tutti nel raggio di qualche metro (5 o 6).
-
-## Corazza Arcana
-Invochi un manto di pura forza che avvolge te (o un individuo a portata di lancio) e protegge praticamente da tutto, garantendo 5 punti armatura contro un effetto in particolare.
-
-## Precognizione
-Sfidando le leggi materiali spingi la tua mente temporaneamente avanti nel tempo. Ottieni **+3d** al tuo prossimo tiro, oppure vieni a conoscenza di qualcosa che deve ancora succedere.
-
-## Invisibilità
-Deformi la luce attorno a te (o un individuo a portata di lancio) viene deviata, deformata e riplasmata, e fino a quando mantieni la concentrazione tu (o il tuo bersaglio) sei quasi impossibile da vedere.
 
